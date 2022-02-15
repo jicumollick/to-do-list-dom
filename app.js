@@ -37,15 +37,10 @@ for(let button of doneButton){
         e.target.parentNode.parentNode.style.textDecoration = 'line-through';
     })
 }
-
-
 })
-
-
 
  function deleteAll(){
     const mainContainer = document.getElementById('table-container');
     mainContainer.textContent = '';
  }
 
- 
